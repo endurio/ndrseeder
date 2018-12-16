@@ -5,12 +5,14 @@ import:
   - spew
 - package: github.com/btcsuite/btcd
   repo: git@gitlab.com:Zergity/ndrd.git
+  version: mvp
   subpackages:
   - chaincfg
   - peer
   - wire
 - package: github.com/btcsuite/btcutil
   repo: https://github.com/Zergity/btcutil.git
+  version: mvp
   subpackages:
   - bloom
   - hdkeychain
