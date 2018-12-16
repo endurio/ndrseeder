@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/decred/dcrd/peer"
-	"github.com/decred/dcrd/wire"
+	"github.com/btcsuite/btcd/peer"
+	"github.com/btcsuite/btcd/wire"
 )
 
 const (
@@ -37,7 +37,7 @@ func creep() {
 	onaddr := make(chan struct{})
 	verack := make(chan struct{})
 	config := peer.Config{
-		UserAgentName:    "dcrpeersniffer",
+		UserAgentName:    "ndrpeersniffer",
 		UserAgentVersion: "0.0.1",
 		ChainParams:      activeNetParams,
 		DisableRelayTx:   true,

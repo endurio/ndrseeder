@@ -1,0 +1,68 @@
+hash: c38006561fcb3f438cea44edf544c9ba53304d94ab1259ac8738046f962275f4
+updated: 2018-12-16T13:13:42.5451555+07:00
+imports:
+- name: github.com/btcsuite/btcd
+  version: d1188dfabe85190c6c1100d6dbe68cbb4a99404a
+  repo: git@gitlab.com:Zergity/ndrd.git
+  subpackages:
+  - blockchain
+  - btcec
+  - chaincfg
+  - chaincfg/chainhash
+  - database
+  - peer
+  - txscript
+  - wire
+- name: github.com/btcsuite/btclog
+  version: 84c8d2346e9fc8c7b947e243b9c24e6df9fd206a
+- name: github.com/btcsuite/btcutil
+  version: c63e648c23743051e03fe3619e0a708fd23d8137
+  repo: https://github.com/Zergity/btcutil.git
+  subpackages:
+  - base58
+  - bech32
+  - bloom
+  - hdkeychain
+- name: github.com/btcsuite/go-socks
+  version: 4720035b7bfd2a9bb130b1c184f8bbe41b6f0d0f
+  subpackages:
+  - socks
+- name: github.com/davecgh/go-spew
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+  subpackages:
+  - spew
+- name: github.com/fsnotify/fsnotify
+  version: ccc981bf80385c528a65fbfdd49bf2d8da22aa23
+- name: github.com/golang/protobuf
+  version: ddf22928ea3c56eb4292a0adbbf5001b1e8e7d0d
+- name: github.com/hpcloud/tail
+  version: a1dbeea552b7c8df4b542c66073e393de198a800
+- name: github.com/jessevdk/go-flags
+  version: 1679536dcc895411a9f5848d9a0250be7856448c
+- name: github.com/kr/pretty
+  version: 73f6ac0b30a98e433b289500d779f50c1a6f0712
+- name: github.com/miekg/dns
+  version: 450ab7d57fb96d2a1d85cc507d30a91d00185dd4
+- name: golang.org/x/crypto
+  version: 0c41d7ab0a0ee717d4590a44bcb987dfd9e183eb
+  subpackages:
+  - ed25519
+  - ed25519/internal/edwards25519
+  - ripemd160
+- name: golang.org/x/net
+  version: 49bb7cea24b1df9410e1712aa6433dae904ff66a
+  subpackages:
+  - bpf
+  - internal/iana
+  - internal/socket
+  - ipv4
+  - ipv6
+- name: golang.org/x/sync
+  version: 42b317875d0fa942474b76e1b46a6060d720ae6e
+- name: golang.org/x/sys
+  version: fa43e7bc11baaae89f3f902b2b4d832b68234844
+- name: gopkg.in/fsnotify.v1
+  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
+- name: gopkg.in/tomb.v1
+  version: dd632973f1e7218eb1089048e0798ec9ae7dceb8
+testImports: []

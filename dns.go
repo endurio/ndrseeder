@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/decred/dcrd/wire"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/miekg/dns"
 )
 

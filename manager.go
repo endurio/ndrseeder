@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/decred/dcrd/wire"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/miekg/dns"
 )
 
